@@ -1,10 +1,66 @@
-.top {
-	margin-top: 0;
-	background-color: blue;
-	width: 100%;
-	height: 100px;
-}
+/*
+#2B3D6B
+#3B5999
+#75AAF8
+#77BA9B
+#B6Q754
+
+*/
 
 .navbar {
     margin-bottom: 0;
+}
+.navbar-default .active {
+	background-color: #2B3D6B;
+}
+
+.navbar-default {
+	background: none;
+ 	background-color: #2B3D6B;
+ 	color: white;
+ }
+nav > a {
+	color: yellow;
+}
+
+footer {
+	padding-top: 20px;
+	height: 200px;
+	background-color: #2B3D6B;
+	color: white;
+}
+footer li {
+	list-style-type: none;
+}
+footer img {
+	height: 50px;
+	width: 50px;
+}
+.fTitle {
+	padding-bottom: 15px;
+	font-weight: bold;
+	font-size: 16px;
+	text-decoration: underline;
+}
+footer a {
+	color: white;
+}
+
+.packages h1 {
+	font-size: 30px;
+}
+.packages h2 {
+	font-size: 20px;
+}
+.packages {
+	margin: 20px 20px 20px 20px;
+}
+.package {
+	background-color: #e8ebef;
+	box-shadow: 0px 0px 2px 3px #888888;
+}
+
+.package img {
+	padding: 1%;
+	float: left;
 }
