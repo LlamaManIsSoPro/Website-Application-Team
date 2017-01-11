@@ -7,6 +7,10 @@
 
 */
 
+.navbar-brand {
+	padding: 0;
+}
+
 .navbar {
     margin-bottom: 0;
 }
@@ -19,10 +23,9 @@
  	background-color: #2B3D6B;
  	color: white;
  }
-nav > a {
-	color: yellow;
+.navbar-default .navbar-nav > li > a {
+    color: white;
 }
-
 footer {
 	padding-top: 20px;
 	height: 200px;
@@ -46,21 +49,52 @@ footer a {
 	color: white;
 }
 
+.background {
+	background: url("img/mainBackground.jpg") no-repeat center;
+	background-size: cover;
+	height: 350px;
+}
+
+
 .packages h1 {
-	font-size: 30px;
+	font-size: 20px;
+	margin-bottom: 0;
+
 }
 .packages h2 {
-	font-size: 20px;
+	font-size: 16px;
+}
+.packages h4 {
+	margin-top: 5px;
+	font-size: 18px;
+	color: gray;
 }
 .packages {
 	margin: 20px 20px 20px 20px;
+	margin-left: 0x;
 }
 .package {
 	background-color: #e8ebef;
 	box-shadow: 0px 0px 2px 3px #888888;
+	margin-bottom: 15px;
 }
 
 .package img {
-	padding: 1%;
+	padding: 2% 4% 2% 0%;
 	float: left;
+}
+
+.price {
+	color: #85bb65;
+}
+
+.searchPanel {
+	background-color: #75AAF8;
+	box-shadow: 0px 0px 2px 3px #888888;
+	color: black;	
+}
+
+input[type=submit] {
+	margin-top: 15px;
+    display: block
 }

@@ -12,16 +12,27 @@
 		?>
 			
 		<div class="container">
-			<div class="row packages">
-				<div class="col-md-3">
+			<div class="row">
+				<div class="col-md-12 citySearch">
 
 				</div>
-				<div class="package col-md-8">
-					<div class="col-md-8">
-						<img src="img/Packages/equestrian.jpg">
-						<h1>Equestrian Package</h1>
-						<h2>5/16/17 - 5/21/17</h2>
-					</div>
+			</div>
+			<div class="row packages">
+				<div class="col-md-4 searchPanel">
+				<form action="packages.php" method="GET">
+				City:
+				<select name="cities">
+					<option value="Mackinac+Island">Mackinac Island</option>
+					<option value="Ann+Arbor">Ann Arbor</option>
+					<option value="Traverse+City">Traverse City</option>
+					<br />
+				<input type ="submit">
+				</form>
+				</div>
+				<div class="col-md-8">
+				<?php
+				include 'includes/singlepackage.php'
+				?>
 				</div>
 			</div>
 		</div>

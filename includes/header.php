@@ -6,14 +6,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Michigan Journey</a>
+      <a class="navbar-brand" href="index.php"><img src="img/logo.png" alt="Michigan Journey Logo"> </a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.php">Home</a></li>
+      <ul class="nav navbar-nav nav-color">
+        <li><a href="packages.php">Cities</a></li>
         <li><a href="packages.php">Packages</a></li>
-        <li><a href="packages.php">Page 2\</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li><a href="#">Activities</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>

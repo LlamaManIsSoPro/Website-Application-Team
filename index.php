@@ -10,7 +10,10 @@
 		<?php
 		include 'includes/header.php'
 		?>
-		hi
+		<div class="background text-center">
+			<h1>Michigan exploration</h1>
+			<h2>For a Fresh Change Try Michigan</h2>
+		</div>
 
 		<?php
 		include 'includes/footer.php'
